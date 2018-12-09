@@ -142,10 +142,6 @@ figure {
   margin: 0;
 }
 
-.craze {
-  background-color: #cad2df;
-}
-
 figcaption h2 {
   color: #824654;
   font-size: 1.125rem;
@@ -244,6 +240,7 @@ h2 {
 
 .craze {
   position: relative;
+  background-color: #cad2df;
 }
 
 .craze figcaption {
