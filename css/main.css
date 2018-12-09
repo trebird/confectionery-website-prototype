@@ -242,6 +242,37 @@ h2 {
   color: #cad2df;
 }
 
+.craze {
+  position: relative;
+}
+
+.craze figcaption {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2em;
+  background-color: rgba(202, 210, 223, .8);
+  color: #824654;
+  width: 65%;
+  border-radius: 10px;
+  padding: 1.3rem;
+}
+
+.capital {
+  position: relative;
+}
+
+.capital h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2em;
+  background-color: rgba(130, 70, 84, .3);
+  color: #cad2df;
+  width: 100%;
+  padding: .25rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
