@@ -52,7 +52,7 @@ h1 {
   font-family: "Oleo Script Swash Caps", Regular;
   margin: .25rem;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 ul {
@@ -208,7 +208,7 @@ h2 {
   color: #b96a7d;
   font-family: "Oleo Script Swash Caps", Regular;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .link-card {
@@ -232,7 +232,7 @@ h2 {
   background-color: #b96a7d;
 }
 
-.link-card:hover .btn-ghost{
+.link-card:hover .btn-ghost {
   background-color: #824654;
   color: #cad2df;
   border: solid 1px #824654;
