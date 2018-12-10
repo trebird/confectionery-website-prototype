@@ -313,13 +313,13 @@ h4:nth-child(3) {
 .location h2 {
   color: #cad2df;
   padding-bottom: 0;
-  width: 50%;
+  width: 60%;
   margin: 1rem 2rem;
 }
 
 .location p {
   color: #b96a7d;
-  width: 50%;
+  width: 60%;
   margin: 1rem 2rem;
   font-weight: normal;
 }
@@ -331,7 +331,7 @@ h4:nth-child(3) {
 
 .map dl {
   color: #b96a7d;
-  width: 50%;
+  width: 60%;
   margin: 1rem 2rem;
   text-align: left;
   position: relative;
