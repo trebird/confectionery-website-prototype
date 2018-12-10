@@ -138,6 +138,10 @@ nav a:hover {
   margin: 0;
 }
 
+.craze figure {
+  border-bottom: solid 1px #b96a7d;
+}
+
 figure {
   margin: 0;
 }
@@ -176,6 +180,7 @@ h3 {
 .grid {
   display: flex;
   flex-wrap: wrap;
+  border-bottom: solid 1px #b96a7d;
 }
 
 .grid img {
@@ -219,6 +224,8 @@ h3 {
   background-color: #cad2df;
   text-decoration: none;
   padding: 2rem;
+  border-bottom: solid 1px #b96a7d;
+}
 }
 
 .link-card h4 {
@@ -257,6 +264,10 @@ h3 {
   color: #cad2df;
   width: 100%;
   padding: .5rem;
+}
+
+.capital img {
+  border-bottom: solid 1px #b96a7d;
 }
 
 .capital figcaption {
