@@ -230,8 +230,8 @@ h2 {
 
 .link-card:hover .btn-ghost {
   background-color: #824654;
-  color: #cad2df;
   border: solid 1px #824654;
+  color: #cad2df;
 }
 
 .link-card:hover h4 {
@@ -271,8 +271,8 @@ h2 {
 }
 
 .capital figcaption {
-  padding-bottom: 1rem;
-  background-color: #b96a7d;
+  padding-bottom: .25rem;
+  background-color: #824654;
 }
 
 .map {
@@ -280,38 +280,90 @@ h2 {
 }
 
 .location {
+  display: flex;
   background-color: #824652;
+  padding-bottom: 5rem;
+}
+
+.location figcaption {
   width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: .9rem;
 }
 
 .location h2 {
   color: #cad2df;
   padding-bottom: 0;
-  width: 75%;
-  margin: 1rem auto;
+  width: 50%;
+  margin: .9rem auto;
 }
 
 .location p {
   color: #b96a7d;
-  width: 75%;
-  margin: 1rem auto;
+  width: 50%;
+  margin: .9rem auto;
   font-weight: normal;
 }
 
 .address p {
   margin: 0 auto;
+  width: 50%;
 }
 
 .map dl {
   color: #b96a7d;
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
   text-align: left;
+  position: relative;
 }
 
 .map dt {
   display: inline-block;
   float: left;
+}
+
+.location .btn-ghost {
+  display: inline-block;
+  margin: 1em auto;
+  padding: .25em .5em;
+  font-size: .9rem;
+  color: #b96a7d;
+}
+
+.location .btn-ghost:hover {
+  background-color: #b96a7d;
+  border: solid 1px #b96a7d;
+  color: #cad2df;
+}
+
+.location .socials {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.socials img {
+  width: 40px;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  background-color: #b96a7d;
+  justify-content: space-between;
+  text-align: left;
+  color: #cad2df;
+}
+
+footer p {
+  padding: 1em;
+  margin: 0 1rem;
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 25em) {
@@ -397,6 +449,35 @@ h2 {
     display: block;
   }
 
+  .location {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .location .img-flex {
+    display: inline-block;
+    width: 55%;
+    padding: 0;
+    padding-left: 1.25rem;
+    float: left;
+  }
+
+  .location figcaption {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+  }
+
+  .address h2 {
+    margin-top: 0;
+  }
+
+  .socials img {
+    width: 45px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -443,12 +524,20 @@ h2 {
     display: block;
   }
 
+  .socials img {
+    width: 50px;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .socials img {
+    width: 55px;
   }
 
 }
