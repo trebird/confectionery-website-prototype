@@ -328,6 +328,7 @@ h4:nth-child(3) {
   margin: 0 auto;
   text-align: left;
   position: relative;
+  font-size: .75rem;
 }
 
 .map dt {
