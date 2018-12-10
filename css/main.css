@@ -142,16 +142,18 @@ figure {
   margin: 0;
 }
 
+figcaption {
+  display: block;
+  padding: 1rem 0;
+  background-color: #cad2df;
+}
+
 figcaption h2 {
   color: #824654;
   font-size: 1.125rem;
 }
 
-figcaption {
-  padding: 1rem 0;
-}
-
-h2 {
+h3 {
   margin: 0 auto .75rem;
   font-size: 1.4rem;
 }
@@ -236,23 +238,6 @@ h2 {
 
 .link-card:hover h4 {
   color: #cad2df;
-}
-
-.craze {
-  position: relative;
-  background-color: #cad2df;
-}
-
-.craze figcaption {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2em;
-  background-color: rgba(202, 210, 223, .8);
-  color: #824654;
-  width: 65%;
-  border-radius: 10px;
-  padding: 1.3rem;
 }
 
 .capital {
