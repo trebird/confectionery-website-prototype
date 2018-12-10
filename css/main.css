@@ -208,8 +208,8 @@ h3 {
   margin: 0;
   left: 50%;
   transform: translateX(-50%);
-  bottom: .5rem;
-  width: 95%;
+  bottom: .75rem;
+  width: 85%;
   border-radius: 5px;
   border: solid 1px #cad2df;
   color: #cad2df;
@@ -217,6 +217,10 @@ h3 {
   font-size: 1rem;
   padding: .25rem;
   font-weight: normal;
+}
+
+.photo h3:hover {
+  background-color: rgba(202, 210, 223, .6);
 }
 
 .link-card {
