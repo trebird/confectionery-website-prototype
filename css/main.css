@@ -128,6 +128,10 @@ nav li:hover {
   background-color: #b96a7d;
 }
 
+nav li:hover nav a {
+  color: #cad2df;
+}
+
 nav a:hover {
   background-color: #b96a7d;
   color: #cad2df;
@@ -165,10 +169,10 @@ h3 {
 
 .btn-ghost {
   display: inline-block;
-  padding: .15em .5em;
+  padding: .5em;
   font-size: 1rem;
   border: solid 1px;
-  border-radius: 8px;
+  border-radius: 5px;
   text-decoration: none;
   color: #824654;
 }
@@ -301,7 +305,6 @@ h4:nth-child(3) {
 
 .location figcaption {
   width: 100%;
-  margin: 0 auto;
   padding: 0;
   background-color: #824652;
   font-size: .9rem;
@@ -311,25 +314,25 @@ h4:nth-child(3) {
   color: #cad2df;
   padding-bottom: 0;
   width: 50%;
-  margin: .9rem auto;
+  margin: 1rem 2rem;
 }
 
 .location p {
   color: #b96a7d;
   width: 50%;
-  margin: .9rem auto;
+  margin: 1rem 2rem;
   font-weight: normal;
 }
 
 .address p {
-  margin: 0 auto;
-  width: 50%;
+  margin: 0 2rem;
+  width: 60%;
 }
 
 .map dl {
   color: #b96a7d;
   width: 50%;
-  margin: 0 auto;
+  margin: 1rem 2rem ;
   text-align: left;
   position: relative;
   font-size: .75rem;
@@ -342,8 +345,8 @@ h4:nth-child(3) {
 
 .location .btn-ghost {
   display: inline-block;
-  margin: 1em auto;
-  padding: .25em .5em;
+  margin: 1rem auto .5rem;
+  padding: .5em;
   font-size: .9rem;
   color: #cad2df;
 }
@@ -356,7 +359,7 @@ h4:nth-child(3) {
 
 .location .socials {
   display: flex;
-  margin: 0 auto;
+  margin: 0 1.4rem;
   width: 50%;
 }
 
@@ -454,7 +457,7 @@ footer p {
     background-color: rgba(202, 210, 223, .8);
     color: #824654;
     width: 65%;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 1.3rem;
   }
 
@@ -481,6 +484,10 @@ footer p {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
+  }
+
+  .location .btn-ghost {
+    font-size: .75rem;
   }
 
   .location .img-flex {
