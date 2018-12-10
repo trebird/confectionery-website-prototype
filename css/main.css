@@ -270,6 +270,50 @@ h2 {
   padding: .25rem;
 }
 
+.capital figcaption {
+  padding-bottom: 1rem;
+  background-color: #b96a7d;
+}
+
+.map {
+  text-align: left;
+}
+
+.location {
+  background-color: #824652;
+  width: 100%;
+}
+
+.location h2 {
+  color: #cad2df;
+  padding-bottom: 0;
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.location p {
+  color: #b96a7d;
+  width: 75%;
+  margin: 1rem auto;
+  font-weight: normal;
+}
+
+.address p {
+  margin: 0 auto;
+}
+
+.map dl {
+  color: #b96a7d;
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.map dt {
+  display: inline-block;
+  float: left;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
