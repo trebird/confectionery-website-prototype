@@ -589,9 +589,10 @@ footer p {
 
   h4:nth-child(1), h4:nth-child(2), h4:nth-child(3) {
     display: inline-block;
-    width: 30%;
+    width: 33%;
     padding-bottom: 1rem;
   }
+
 
   .socials img {
     width: 55px;
