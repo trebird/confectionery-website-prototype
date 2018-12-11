@@ -367,10 +367,16 @@ h4:nth-child(3) {
 .socials img {
   width: 40px;
   margin: .25rem;
+  opacity: .7;
 }
 
 .socials a {
   text-decoration: none;
+}
+
+.socials a:hover img {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 footer {
@@ -455,9 +461,9 @@ footer p {
     left: 50%;
     transform: translateX(-50%);
     bottom: 2em;
-    background-color: rgba(202, 210, 223, .8);
+    background-color: rgba(202, 210, 223, .75);
     color: #824654;
-    width: 65%;
+    width: 60%;
     border-radius: 5px;
     padding: 1.3rem;
   }
