@@ -116,7 +116,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #b96a7d;
+  color: #cad2df;
   text-align: center;
   padding: 0;
   font-size: 1.125rem;
@@ -169,7 +169,7 @@ h3 {
 
 .btn-ghost {
   display: inline-block;
-  padding: .5em;
+  padding: .25em .5em;
   font-size: 1rem;
   border: solid 1px;
   border-radius: 5px;
@@ -180,6 +180,7 @@ h3 {
 .btn-ghost:hover {
   background-color: #824654;
   color: #cad2df;
+  border: solid 1px #824654;
 }
 
 .grid {
@@ -212,7 +213,7 @@ h3 {
   margin: 0;
   left: 50%;
   transform: translateX(-50%);
-  bottom: .75rem;
+  bottom: 1rem;
   width: 85%;
   border-radius: 5px;
   border: solid 1px #cad2df;
@@ -442,7 +443,7 @@ footer p {
 
   nav a:hover {
     background-color: #824654;
-    color: #cad2df;
+    color: #b96a7d;
   }
 
   .craze {
@@ -526,6 +527,10 @@ footer p {
     text-align: left;
     justify-content: space-between;
     align-items: center;
+  }
+
+  header img {
+    margin-right: .4rem;
   }
 
   header h1 {
